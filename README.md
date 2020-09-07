@@ -11,4 +11,4 @@ Home         | [Home](https://github.com/waleedafifi-401-advanced-javascript/dat
  prep 04     | [Promises](https://repl.it/@waleedafifi90/Promises).
  prep 05     | [Async/Await](https://repl.it/@waleedafifi90/AsyncAwait).
  class 01    | [Reverse an array](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/1).
- class 02    | [ArrayShift](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/2s).
+ class 02    | [ArrayShift](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/2).
