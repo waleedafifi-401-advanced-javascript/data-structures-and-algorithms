@@ -1,6 +1,6 @@
 'use strict';
 
-const insertShiftArray = require('../arrayShift/array-shift');
+const insertShiftArray = require('../challenges/arrayShift/array-shift');
 
 describe('Array Shift ', () => {
     it('pass an even array, num and reseve new array with the number in the middle', () => {
