@@ -10,5 +10,5 @@ function search for value inside an array without using any built in methods and
 using a for loop to  iterate the array and if statement to check the value if it exists inside the array or not
 
 ## Solutions
-![whiteboard](../assets/array-binary-search.jpg)
+![whiteboard](./assets/array-binary-search.jpg)
 
