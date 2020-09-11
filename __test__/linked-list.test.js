@@ -1,6 +1,6 @@
 'usr strict';
 
-const LinkedList = require('../Data-Structures/linked-list');
+const LinkedList = require('../Data-Structures/linkedList/linked-list');
 
 describe('Linked List Module', () => {
 

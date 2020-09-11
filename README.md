@@ -13,3 +13,5 @@ Home         | [Home](https://github.com/waleedafifi-401-advanced-javascript/dat
  class 01    | [Reverse an array](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/1).
  class 02    | [ArrayShift](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/2).
  class 03    | [Array Search](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/6).
+ class 04    | [Mock Interviews](https://docs.google.com/spreadsheets/d/1YSD5EknVdC7q3NV39GlhCFlBz93qh3-X0Y47k2CvLGA/edit#gid=0).
+ class 05    | [Linked List](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/8).
