@@ -9,9 +9,9 @@ class LinkedList {
     }
 
     insert(value) {
-        if(!value) { 
+        if (!value) {
             console.log('insert: Value can not be empty');
-            return; 
+            return;
         }
 
         let node = new Node(value);
@@ -31,9 +31,9 @@ class LinkedList {
     }
 
     include(value) {
-        if(!value) { 
+        if (!value) {
             console.log('include: Value can not be empty');
-            return; 
+            return;
         }
 
         let current = this.head;
@@ -41,7 +41,7 @@ class LinkedList {
         if (current.name === value) {
             return true;
         }
-        
+
         while (current.next) {
             if (current.next.name === value) {
                 return true;
@@ -73,9 +73,9 @@ class LinkedList {
 
     append(value) {
 
-        if(!value) { 
+        if (!value) {
             console.log('append: Value can not be empty');
-            return; 
+            return;
         }
 
         let node = new Node(value);
@@ -95,9 +95,9 @@ class LinkedList {
     }
 
     insertBefore(value, newVal) {
-        if(!value && !newVal) { 
+        if (!value && !newVal) {
             console.log('insertBefore: Value can not be empty');
-            return; 
+            return;
         }
 
         let newNode = new Node(newVal);
@@ -123,9 +123,9 @@ class LinkedList {
     }
 
     insertAfter(value, newVal) {
-        if(!value && !newVal) { 
+        if (!value && !newVal) {
             console.log('insertAfter: Value can not be empty');
-            return; 
+            return;
         }
 
         let newNode = new Node(newVal);
@@ -133,18 +133,48 @@ class LinkedList {
         let nextValue = null;
 
         while (currentNode) {
-        
+
             if (currentNode.name === value) {
                 nextValue = currentNode.next;
-            
+
                 currentNode.next = newNode;
-            
+
                 newNode.next = nextValue;
             }
-            
+
             currentNode = currentNode.next;
         }
     }
+
+    kthFromEnd(k) {
+        if (typeof k != 'number') { throw Error('K must be a number'); }
+
+        if (k < 0) {
+            throw Error('Value can not be less than 0');
+        }
+
+        let count = 0;
+        let current = this.head;
+        
+        while (current) {
+            count++;
+            current = current.next;
+        }
+        
+        if (k > count - 1) {
+            throw Error('The value you have entered out of the linked list range');
+        }
+        
+        current = this.head;
+        let index = (count - k) - 1;
+        
+        for (let i = 0; i < index; i++) {
+            current = current.next;
+        }
+        
+        return current.name;
+    }
+
 
 }
 
@@ -153,8 +183,9 @@ let list = new LinkedList();
 list.append('Cat 1');
 list.append('Cat 2');
 // list.insertBefore('Cat 4', 'Cat 2')
-list.insertAfter('', '')
-
-console.log(list.toString())
+list.insertAfter('Cat 2', 'ss');
+let test = list.kthFromEnd('0');
+console.log('test: ', test);
+console.log(list.toString());
 
 module.exports = LinkedList;
