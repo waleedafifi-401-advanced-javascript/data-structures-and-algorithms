@@ -4,16 +4,16 @@ let testArr = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 6
 
 const reverseArray = (arr) => {
 
-    let ln = arr.length - 1;
+  let ln = arr.length - 1;
 
-    for (let i = 0; i < ln; i++) {
-        let changeNum = arr[i];
-        arr[i] = arr[ln];
-        arr[ln] = changeNum;
-        ln--;
-    }
-    console.log(arr)
-    return arr
+  for (let i = 0; i < ln; i++) {
+    let changeNum = arr[i];
+    arr[i] = arr[ln];
+    arr[ln] = changeNum;
+    ln--;
+  }
+  console.log(arr);
+  return arr;
 };
 
 

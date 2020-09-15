@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint:js": "eslint './**/*.js' --ignore-pattern node_modules/",
+    "lint:js:fix": "eslint './**/*.js' --ignore-pattern node_modules/ --fix"
   },
   "author": "",
   "license": "ISC",
