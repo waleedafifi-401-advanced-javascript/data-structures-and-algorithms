@@ -179,14 +179,14 @@ class LinkedList {
 
 }
 
-let list = new LinkedList();
+// let list = new LinkedList();
 
-list.append('Cat 1');
-list.append('Cat 2');
-// list.insertBefore('Cat 4', 'Cat 2')
-list.insertAfter('Cat 2', 'ss');
-let test = list.kthFromEnd('0');
-console.log('test: ', test);
-console.log(list.toString());
+// list.append('Cat 1');
+// list.append('Cat 2');
+// // list.insertBefore('Cat 4', 'Cat 2')
+// list.insertAfter('Cat 2', 'ss');
+// let test = list.kthFromEnd('0');
+// console.log('test: ', test);
+// console.log(list.toString());
 
 module.exports = LinkedList;
