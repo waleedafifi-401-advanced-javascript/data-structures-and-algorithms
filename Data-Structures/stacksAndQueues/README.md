@@ -1,6 +1,8 @@
 # Queue with Stack  :
 this code will create a **Queue** usibg two **Stack** , **PseudoQueue** class will create the standard **queue** interface .
 
+[PR Link](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/13)
+
 ## Challenge
 - Create a new **Stack** class, with `push()` , `pop()` , `peek()` and `isEmpty()` methods.
 - Create a new **Queue** class, with `dequeue()` , `enqueue()` , `peek()` and `isEmpty()` methods.
