@@ -1,0 +1,22 @@
+{
+  "env": {
+      "es6": true,
+      "node": true
+  },
+"rules": {
+  "no-console":"off",
+  "func-names": ["error", "never"],
+  "semi": ["error", "always"],
+  "quotes": ["error", "double"],
+  "max-len": [1, 500, 4, {"ignoreComments": true, "ignoreUrls": true}]
+},
+  "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+  }
+}
+

@@ -1,10 +1,10 @@
-'use strict';
+"use strict";
 
 /**
  * LinkedList reqiure linked list class from CC 7
  * @constant
  */
-const LinkedList = require('../linkedList/linked-list');
+const LinkedList = require("../linkedList/linked-list");
 
 
 function llPalindrome(list) {
@@ -38,25 +38,25 @@ let list = new LinkedList();
 let list1 = new LinkedList();
 let list2 = new LinkedList();
 
-list.append('t');
-list.append('a');
-list.append('c');
-list.append('o');
-list.append('c');
-list.append('c');
-list.append('t');
+list.append("t");
+list.append("a");
+list.append("c");
+list.append("o");
+list.append("c");
+list.append("c");
+list.append("t");
 
-list1.append('m');
-list1.append('o');
-list1.append('o');
-list1.append('m');
+list1.append("m");
+list1.append("o");
+list1.append("o");
+list1.append("m");
 
-list2.append('a');
-list2.append('b');
-list2.append('c');
-list2.append('d');
-list2.append('c');
-list2.append('a');
+list2.append("a");
+list2.append("b");
+list2.append("c");
+list2.append("d");
+list2.append("c");
+list2.append("a");
 
 console.log(list.toString());
 let llpd = llPalindrome(list);

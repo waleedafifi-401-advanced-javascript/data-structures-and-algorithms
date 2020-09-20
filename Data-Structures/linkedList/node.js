@@ -1,4 +1,4 @@
-'use struct';
+"use struct";
 
 class Node {
   constructor(value) {
