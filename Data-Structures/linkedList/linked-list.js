@@ -1,6 +1,6 @@
-'usr strict';
+"usr strict";
 
-const Node = require('./node');
+const Node = require("./node");
 
 class LinkedList {
 
@@ -10,7 +10,7 @@ class LinkedList {
 
   insert(value) {
     if (!value) {
-      console.log('insert: Value can not be empty');
+      console.log("insert: Value can not be empty");
       return;
     }
 
@@ -32,7 +32,7 @@ class LinkedList {
 
   include(value) {
     if (!value) {
-      console.log('include: Value can not be empty');
+      console.log("include: Value can not be empty");
       return;
     }
 
@@ -64,9 +64,9 @@ class LinkedList {
 
     allNodes.push(current.name);
 
-    allNodes.push('null');
+    allNodes.push("null");
 
-    let arrowNext = allNodes.join(' -> ');
+    let arrowNext = allNodes.join(" -> ");
 
     return arrowNext;
   }
@@ -74,7 +74,7 @@ class LinkedList {
   append(value) {
 
     if (!value) {
-      console.log('append: Value can not be empty');
+      console.log("append: Value can not be empty");
       return;
     }
 
@@ -96,7 +96,7 @@ class LinkedList {
 
   insertBefore(value, newVal) {
     if (!value && !newVal) {
-      console.log('insertBefore: Value can not be empty');
+      console.log("insertBefore: Value can not be empty");
       return;
     }
 
@@ -124,7 +124,7 @@ class LinkedList {
 
   insertAfter(value, newVal) {
     if (!value && !newVal) {
-      console.log('insertAfter: Value can not be empty');
+      console.log("insertAfter: Value can not be empty");
       return;
     }
 
@@ -148,10 +148,10 @@ class LinkedList {
 
   kthFromEnd(k) {
 
-    if (typeof k !== 'number') { console.log('K must be a number'); return 'K must be a number'; }
+    if (typeof k !== "number") { console.log("K must be a number"); return "K must be a number"; }
 
     if (k < 0) {
-      throw Error('Value can not be less than 0');
+      throw Error("Value can not be less than 0");
     }
 
     let count = 0;
@@ -163,7 +163,7 @@ class LinkedList {
     }
         
     if (k > count - 1) {
-      throw Error('The value you have entered out of the linked list range');
+      throw Error("The value you have entered out of the linked list range");
     }
         
     current = this.head;

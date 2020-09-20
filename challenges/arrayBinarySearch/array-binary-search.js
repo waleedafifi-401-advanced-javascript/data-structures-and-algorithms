@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 function binarySearch(arr, value) {
   if (arr !== [] && value) {
@@ -9,7 +9,7 @@ function binarySearch(arr, value) {
     }
     return -1;
   } else {
-    throw new Error('Please check you arrguments');
+    throw new Error("Please check you arrguments");
   }
 }
 

@@ -1,13 +1,13 @@
 /**
  * Zip linked list module
  */
-'use strict';
+"use strict";
 
 /**
  * LinkedList reqiure linked list class from CC 7
  * @constant
  */
-const LinkedList = require('../linkedList/linked-list');
+const LinkedList = require("../linkedList/linked-list");
 
 /**
  * 
@@ -40,14 +40,14 @@ function zipLists(list1, list2) {
 
 let list = new LinkedList();
 
-list.append('1');
-list.append('3');
+list.append("1");
+list.append("3");
 
 let list2 = new LinkedList();
 
-list2.append('5');
-list2.append('9');
-list2.append('4');
+list2.append("5");
+list2.append("9");
+list2.append("4");
 
 let zip = zipLists(list,list2);
 console.log(zip.toString());
