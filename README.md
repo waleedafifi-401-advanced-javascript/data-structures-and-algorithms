@@ -16,3 +16,9 @@ Home         | [Home](https://github.com/waleedafifi-401-advanced-javascript/dat
  class 04    | [Mock Interviews](https://docs.google.com/spreadsheets/d/1YSD5EknVdC7q3NV39GlhCFlBz93qh3-X0Y47k2CvLGA/edit#gid=0).
  class 05    | [Linked List](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/8).
  class 06    | [Linked List Insertion](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/9).
+ class 07    | [kthFromEnd](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/11).
+ class 08    | [ll-zip](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/12).
+ class 09    | [Mock Interviews](https://docs.google.com/spreadsheets/d/1_I69gPqAF5ionCxT2xtEtowRYIThOiaMtqReVeIgV9g/edit?usp=sharing).
+ class 10    | [stacksAndQueues](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/13).
+ class 11    | [stacks with Queues](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/14).
+ class 12    | [fifoAnimalShelter](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/15).

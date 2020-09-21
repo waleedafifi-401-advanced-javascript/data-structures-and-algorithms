@@ -1,5 +1,5 @@
 "use strict";
-const PseudoQueue = require('../challenges/queueWithStacks/queue-with-stacks');
+const PseudoQueue = require("../challenges/queueWithStacks/queue-with-stacks");
 
 describe("Queue Tests", () => {
     it("Can instantiate an empty Queue", () => {
