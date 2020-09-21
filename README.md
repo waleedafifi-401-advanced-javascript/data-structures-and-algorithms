@@ -21,3 +21,4 @@ Home         | [Home](https://github.com/waleedafifi-401-advanced-javascript/dat
  class 09    | [Mock Interviews](https://docs.google.com/spreadsheets/d/1_I69gPqAF5ionCxT2xtEtowRYIThOiaMtqReVeIgV9g/edit?usp=sharing).
  class 10    | [stacksAndQueues](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/13).
  class 11    | [stacks with Queues](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/14).
+ class 12    | [fifoAnimalShelter](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/15).
