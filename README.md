@@ -22,3 +22,4 @@ Home         | [Home](https://github.com/waleedafifi-401-advanced-javascript/dat
  class 10    | [stacksAndQueues](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/13).
  class 11    | [stacks with Queues](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/14).
  class 12    | [fifoAnimalShelter](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/15).
+ class 15    | [multiBracketValidation](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/16).
