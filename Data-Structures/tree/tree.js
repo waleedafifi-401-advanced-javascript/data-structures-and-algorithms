@@ -46,7 +46,7 @@ class BinarySearchTree {
         this.root = root;
     }
     add(value) {
-        let treeValue = new Ne(value);
+        let treeValue = new Node(value);
         if (this.root === null) {
             this.root = treeValue;
             return this.root;
