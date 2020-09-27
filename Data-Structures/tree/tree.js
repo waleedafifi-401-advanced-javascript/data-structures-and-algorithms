@@ -39,6 +39,30 @@ class BinaryTree {
         _walk(this.root);
         return treeResults;
     }
+
+    findMaximumValue() {
+        if (!this.root) {
+            throw Error("Cannot find value in an empty tree");
+        }
+        let maxValue = this.root.value;
+
+        function _maxValue(root) {
+            if (!root) {
+                return;
+            }
+            if (root.value > maxValue) {
+                maxValue = root.value;
+            }
+            if (root.left) {
+                _maxValue(root.left);
+            }
+            if (root.right) {
+                _maxValue(root.right);
+            }
+        }
+        _maxValue(this.root);
+        return maxValue;
+    }
 }
 
 class BinarySearchTree {
