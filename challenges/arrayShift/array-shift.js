@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const insertShiftArray = (arr, num) => {
   let ln = Math.ceil(arr.length / 2);

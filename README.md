@@ -26,3 +26,4 @@ Home         | [Home](https://github.com/waleedafifi-401-advanced-javascript/dat
  class 14    | [duckDuckGoose](#).
  class 15    | [multiBracketValidation](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/17).
  class 16    | [findMaximumValue](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/18).
+ class 17    | [breadthFirst](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/19).

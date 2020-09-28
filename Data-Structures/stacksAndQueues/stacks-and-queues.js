@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-const Node = require("../linkedList/node");
+const Node = require('../linkedList/node');
 
 class Stack {
   constructor() {
@@ -20,12 +20,12 @@ class Stack {
       temp.next = null;
       return temp.name;
     }
-    throw new RangeError("Cannot pop from an empty stack");
+    throw new RangeError('Cannot pop from an empty stack');
   }
   
   peek() {
     if (this.top) { return this.top.name; }
-    throw new RangeError("Cannot peek an empty stack");
+    throw new RangeError('Cannot peek an empty stack');
   }
   
   isEmpty() {
@@ -50,7 +50,7 @@ class Queue {
   
   dequeue() {
     if(this.isEmpty()) {
-      throw new RangeError("Cannot dequeue an empty queue");
+      throw new RangeError('Cannot dequeue an empty queue');
     }
     let temp = this.front;
     this.front = this.front.next;
@@ -60,7 +60,7 @@ class Queue {
   
   peek() {
     if (this.front) { return this.front.name; }
-    throw new RangeError("Cannot peek an empty queue");
+    throw new RangeError('Cannot peek an empty queue');
   }
   
   isEmpty() {
