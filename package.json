@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint:js": "eslint './**/*.js' --ignore-pattern node_modules/",
-    "lint:js:fix": "eslint './**/*.js' --ignore-pattern node_modules/ --fix"
+    "lint": "eslint .",
+    "lint:fix": "npm run lint --silent -- --fix",
+    "lint:watch": "onchange \"./**/*.js\" -- onerror \"npm run lint --silent\""
   },
   "author": "",
   "license": "ISC",
