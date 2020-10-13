@@ -30,3 +30,4 @@ Home         | [Home](https://github.com/waleedafifi-401-advanced-javascript/dat
  class 18    | [fizzBuzzTree](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/20).
  class 26    | [insertionSort](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/21).
  class 27    | [mergeSort](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/22).
+ class 28    | [quickSort](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/23).
