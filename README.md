@@ -31,3 +31,4 @@ Home         | [Home](https://github.com/waleedafifi-401-advanced-javascript/dat
  class 26    | [insertionSort](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/21).
  class 27    | [mergeSort](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/22).
  class 28    | [quickSort](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/23).
+ class 29    | [Hashtable](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/24).
