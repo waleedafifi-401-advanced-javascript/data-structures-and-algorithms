@@ -36,3 +36,4 @@ Home         | [Home](https://github.com/waleedafifi-401-advanced-javascript/dat
  class 32    | [treeIntersection](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/26).
  class 33    | [leftJoin](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/27).
  class 35    | [Graphs](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/28).
+ class 36    | [BreadthFirstGraphs](https://github.com/waleedafifi-401-advanced-javascript/data-structures-and-algorithms/pull/29).
